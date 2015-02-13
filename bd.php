@@ -1,3 +1,5 @@
+<?php
+
 $user="usuario";
 $pass="contraseña";
 $server="localhost";
