@@ -1,8 +1,8 @@
 <?php
 include_once "bd.php";
 
-$sql="DELETE FROM datos WHERE Id='$_POST[Id]'";
-
+$id = $_GET['Id'];
+$sql="DELETE FROM datos WHERE Id='$id'";
 mysql_query($sql);
 echo "Datos Borrados Correctamente <br/>";
 ?>
